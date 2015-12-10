@@ -46,6 +46,13 @@ body {
 .carousel-caption {
   z-index: 10;
 }
+.carousel-caption h1{
+    font-size: 28px;
+    color:white;
+}
+.carousel-caption p{
+    color:yellow;
+}
 
 /* Declare heights because of positioning of img element */
 .carousel .item {
@@ -121,14 +128,18 @@ body {
     font-size: 21px;
     line-height: 1.4;
   }
-
+   
   .featurette-heading {
     font-size: 50px;
   }
+    
+ 
+    
 }
 
 @media (min-width: 992px) {
   .featurette-heading {
     margin-top: 120px;
-  }
+  }   
+    
 }
